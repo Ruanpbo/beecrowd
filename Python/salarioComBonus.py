@@ -1,0 +1,5 @@
+nome = input()
+salFixo = float(input())
+tVendas = float(input())
+total = salFixo + (tVendas*0.15)
+print(f"TOTAL = {total:.2f}")
